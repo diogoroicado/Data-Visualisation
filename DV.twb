@@ -1,0 +1,1590 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Climatological disasters' inline='true' name='federated.0zkydfb0zczjwy12katkb16v4hu7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Climatological disasters' name='textscan.1izpbum1g2uhlg16alzfl0jbejj6'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/Rodrigo Rocha/Downloads/Data Visualization Project Data/Natural Disasters/Climatological disasters.csv' dataRefreshTime='' directory='C:/Users/Rodrigo Rocha/Downloads/Data Visualization Project Data/Natural Disasters' filename='C:/Users/RODRIG~1/AppData/Local/Temp/TableauTemp/01tujvg191rvwz14zsihc0haxks5/Climatological disasters.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1izpbum1g2uhlg16alzfl0jbejj6' name='Climatological disasters.csv' table='[Climatological disasters#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:K154:no:A1:K154:1' header='yes' locale='pt_PT'>
+            <column datatype='integer' name='CountryID' ordinal='0' />
+            <column datatype='string' name='Countries or areas' ordinal='1' />
+            <column datatype='integer' name='Occurrence 1990-1999' ordinal='2' />
+            <column datatype='integer' name='Occurrence 2000-2009' ordinal='3' />
+            <column datatype='integer' name='Occurrence 2010-2019' ordinal='4' />
+            <column datatype='integer' name='Total deaths 1990-1999' ordinal='5' />
+            <column datatype='integer' name='Total deaths 2000-2009' ordinal='6' />
+            <column datatype='integer' name='Total deaths 2010-2019' ordinal='7' />
+            <column datatype='integer' name='Persons affected 1990-1999' ordinal='8' />
+            <column datatype='integer' name='Persons affected 2000-2009' ordinal='9' />
+            <column datatype='integer' name='Persons affected 2010-2019' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1izpbum1g2uhlg16alzfl0jbejj6' name='Climatological disasters.csv' table='[Climatological disasters#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:K154:no:A1:K154:1' header='yes' locale='pt_PT'>
+            <column datatype='integer' name='CountryID' ordinal='0' />
+            <column datatype='string' name='Countries or areas' ordinal='1' />
+            <column datatype='integer' name='Occurrence 1990-1999' ordinal='2' />
+            <column datatype='integer' name='Occurrence 2000-2009' ordinal='3' />
+            <column datatype='integer' name='Occurrence 2010-2019' ordinal='4' />
+            <column datatype='integer' name='Total deaths 1990-1999' ordinal='5' />
+            <column datatype='integer' name='Total deaths 2000-2009' ordinal='6' />
+            <column datatype='integer' name='Total deaths 2010-2019' ordinal='7' />
+            <column datatype='integer' name='Persons affected 1990-1999' ordinal='8' />
+            <column datatype='integer' name='Persons affected 2000-2009' ordinal='9' />
+            <column datatype='integer' name='Persons affected 2010-2019' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K154:no:A1:K154:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1131</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CountryID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CountryID]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>CountryID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Countries or areas</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Countries or areas]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Countries or areas</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occurrence 1990-1999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Occurrence 1990-1999]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Occurrence 1990-1999</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occurrence 2000-2009</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Occurrence 2000-2009]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Occurrence 2000-2009</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occurrence 2010-2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Occurrence 2010-2019]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Occurrence 2010-2019</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total deaths 1990-1999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total deaths 1990-1999]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Total deaths 1990-1999</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total deaths 2000-2009</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total deaths 2000-2009]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Total deaths 2000-2009</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total deaths 2010-2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total deaths 2010-2019]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Total deaths 2010-2019</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons affected 1990-1999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Persons affected 1990-1999]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Persons affected 1990-1999</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons affected 2000-2009</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Persons affected 2000-2009]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Persons affected 2000-2009</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons affected 2010-2019</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Persons affected 2010-2019]</local-name>
+            <parent-name>[Climatological disasters.csv]</parent-name>
+            <remote-alias>Persons affected 2010-2019</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Occurrence' datatype='integer' name='[Calculation_409546157547380736]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Occurrence 1990-1999]+[Occurrence 2000-2009]+[Occurrence 2010-2019]' />
+      </column>
+      <column datatype='string' name='[Countries or areas]' role='dimension' type='nominal' />
+      <column caption='Country ID' datatype='integer' name='[CountryID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Climatological disasters.csv' datatype='table' name='[__tableau_internal_object_id__].[Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370]' role='measure' type='quantitative' />
+      <column-instance column='[Countries or areas]' derivation='None' name='[none:Countries or areas:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Countries or areas:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Eswatini&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;South Sudan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Democratic People&apos;s Republic of Korea&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Anguilla&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Venezuela (Bolivarian Republic of)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United Republic of Tanzania&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sao Tome and Principe&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Côte d’Ivoire&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Grenada&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Russian Federation&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Timor-Leste&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iran (Islamic Republic of)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Republic of Korea&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Republic of Moldova&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lao People&apos;s Democratic Republic&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Saint Vincent and the Grenadines&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Viet Nam&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Marshall Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tuvalu&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bolivia (Plurinational State of)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kiribati&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;China, Hong Kong Special Administrative Region&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Micronesia (Federated States of)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cabo Verde&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;North Macedonia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Climatological disasters.csv' id='Climatological disasters.csv_6459416CA1174C6BA2F5A94C2A617370'>
+            <properties context=''>
+              <relation connection='textscan.1izpbum1g2uhlg16alzfl0jbejj6' name='Climatological disasters.csv' table='[Climatological disasters#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:K154:no:A1:K154:1' header='yes' locale='pt_PT'>
+                  <column datatype='integer' name='CountryID' ordinal='0' />
+                  <column datatype='string' name='Countries or areas' ordinal='1' />
+                  <column datatype='integer' name='Occurrence 1990-1999' ordinal='2' />
+                  <column datatype='integer' name='Occurrence 2000-2009' ordinal='3' />
+                  <column datatype='integer' name='Occurrence 2010-2019' ordinal='4' />
+                  <column datatype='integer' name='Total deaths 1990-1999' ordinal='5' />
+                  <column datatype='integer' name='Total deaths 2000-2009' ordinal='6' />
+                  <column datatype='integer' name='Total deaths 2010-2019' ordinal='7' />
+                  <column datatype='integer' name='Persons affected 1990-1999' ordinal='8' />
+                  <column datatype='integer' name='Persons affected 2000-2009' ordinal='9' />
+                  <column datatype='integer' name='Persons affected 2010-2019' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Contribution of mining to value added' inline='true' name='federated.1851n1o12adjky1g8psah1pqhzbf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Contribution of mining to value added' name='textscan.1kb6npo0d0i88b1764ic206ed3rn'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/Rodrigo Rocha/Downloads/Data Visualization Project Data/Energy and Minerals/Contribution of mining to value added.csv' dataRefreshTime='' directory='C:/Users/Rodrigo Rocha/Downloads/Data Visualization Project Data/Energy and Minerals' filename='C:/Users/RODRIG~1/AppData/Local/Temp/TableauTemp/0g8nhza1r0i40n1dyxs7d10fs4hc/Contribution of mining to value added.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1kb6npo0d0i88b1764ic206ed3rn' name='Contribution of mining to value added.csv' table='[Contribution of mining to#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AD192:no:A1:AD192:1' header='yes' locale='pt_PT'>
+            <column datatype='string' name='Country and area' ordinal='0' />
+            <column datatype='string' name='1990' ordinal='1' />
+            <column datatype='string' name='1991' ordinal='2' />
+            <column datatype='string' name='1992' ordinal='3' />
+            <column datatype='string' name='1993' ordinal='4' />
+            <column datatype='string' name='1994' ordinal='5' />
+            <column datatype='string' name='1995' ordinal='6' />
+            <column datatype='real' name='1996' ordinal='7' />
+            <column datatype='real' name='1997' ordinal='8' />
+            <column datatype='real' name='1998' ordinal='9' />
+            <column datatype='real' name='1999' ordinal='10' />
+            <column datatype='real' name='2000' ordinal='11' />
+            <column datatype='real' name='2001' ordinal='12' />
+            <column datatype='real' name='2002' ordinal='13' />
+            <column datatype='real' name='2003' ordinal='14' />
+            <column datatype='real' name='2004' ordinal='15' />
+            <column datatype='real' name='2005' ordinal='16' />
+            <column datatype='real' name='2006' ordinal='17' />
+            <column datatype='real' name='2007' ordinal='18' />
+            <column datatype='real' name='2008' ordinal='19' />
+            <column datatype='real' name='2009' ordinal='20' />
+            <column datatype='real' name='2010' ordinal='21' />
+            <column datatype='real' name='2011' ordinal='22' />
+            <column datatype='real' name='2012' ordinal='23' />
+            <column datatype='real' name='2013' ordinal='24' />
+            <column datatype='real' name='2014' ordinal='25' />
+            <column datatype='real' name='2015' ordinal='26' />
+            <column datatype='real' name='2016' ordinal='27' />
+            <column datatype='real' name='2017' ordinal='28' />
+            <column datatype='real' name='2018' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1kb6npo0d0i88b1764ic206ed3rn' name='Contribution of mining to value added.csv' table='[Contribution of mining to#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AD192:no:A1:AD192:1' header='yes' locale='pt_PT'>
+            <column datatype='string' name='Country and area' ordinal='0' />
+            <column datatype='string' name='1990' ordinal='1' />
+            <column datatype='string' name='1991' ordinal='2' />
+            <column datatype='string' name='1992' ordinal='3' />
+            <column datatype='string' name='1993' ordinal='4' />
+            <column datatype='string' name='1994' ordinal='5' />
+            <column datatype='string' name='1995' ordinal='6' />
+            <column datatype='real' name='1996' ordinal='7' />
+            <column datatype='real' name='1997' ordinal='8' />
+            <column datatype='real' name='1998' ordinal='9' />
+            <column datatype='real' name='1999' ordinal='10' />
+            <column datatype='real' name='2000' ordinal='11' />
+            <column datatype='real' name='2001' ordinal='12' />
+            <column datatype='real' name='2002' ordinal='13' />
+            <column datatype='real' name='2003' ordinal='14' />
+            <column datatype='real' name='2004' ordinal='15' />
+            <column datatype='real' name='2005' ordinal='16' />
+            <column datatype='real' name='2006' ordinal='17' />
+            <column datatype='real' name='2007' ordinal='18' />
+            <column datatype='real' name='2008' ordinal='19' />
+            <column datatype='real' name='2009' ordinal='20' />
+            <column datatype='real' name='2010' ordinal='21' />
+            <column datatype='real' name='2011' ordinal='22' />
+            <column datatype='real' name='2012' ordinal='23' />
+            <column datatype='real' name='2013' ordinal='24' />
+            <column datatype='real' name='2014' ordinal='25' />
+            <column datatype='real' name='2015' ordinal='26' />
+            <column datatype='real' name='2016' ordinal='27' />
+            <column datatype='real' name='2017' ordinal='28' />
+            <column datatype='real' name='2018' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AD192:no:A1:AD192:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>4317</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country and area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country and area]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>Country and area</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1990</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1990]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1990</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1991</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1991]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1991</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1992</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1992]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1992</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1993</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1993]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1993</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1994</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1994]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1994</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1995</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1995]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1995</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1996</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1996]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1996</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1997</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1997]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1997</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1998</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1998]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1998</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1999]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>1999</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2000</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2000]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2000</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2001</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2001]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2001</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2002</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2002]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2002</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2003</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2003]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2003</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2004</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2004]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2004</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2005]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2005</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2006]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2006</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2007]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2007</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2008]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2008</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2009]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2009</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2010]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2010</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2011]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2011</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2012</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2013</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2014</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2016]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2016</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2017]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2017</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2018]</local-name>
+            <parent-name>[Contribution of mining to value added.csv]</parent-name>
+            <remote-alias>2018</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country and area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Contribution of mining to value added.csv' datatype='table' name='[__tableau_internal_object_id__].[Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Contribution of mining to value added.csv' id='Contribution of mining to value added.csv_E920F6351CF34A35BA40C63A46F9CC77'>
+            <properties context=''>
+              <relation connection='textscan.1kb6npo0d0i88b1764ic206ed3rn' name='Contribution of mining to value added.csv' table='[Contribution of mining to#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AD192:no:A1:AD192:1' header='yes' locale='pt_PT'>
+                  <column datatype='string' name='Country and area' ordinal='0' />
+                  <column datatype='string' name='1990' ordinal='1' />
+                  <column datatype='string' name='1991' ordinal='2' />
+                  <column datatype='string' name='1992' ordinal='3' />
+                  <column datatype='string' name='1993' ordinal='4' />
+                  <column datatype='string' name='1994' ordinal='5' />
+                  <column datatype='string' name='1995' ordinal='6' />
+                  <column datatype='real' name='1996' ordinal='7' />
+                  <column datatype='real' name='1997' ordinal='8' />
+                  <column datatype='real' name='1998' ordinal='9' />
+                  <column datatype='real' name='1999' ordinal='10' />
+                  <column datatype='real' name='2000' ordinal='11' />
+                  <column datatype='real' name='2001' ordinal='12' />
+                  <column datatype='real' name='2002' ordinal='13' />
+                  <column datatype='real' name='2003' ordinal='14' />
+                  <column datatype='real' name='2004' ordinal='15' />
+                  <column datatype='real' name='2005' ordinal='16' />
+                  <column datatype='real' name='2006' ordinal='17' />
+                  <column datatype='real' name='2007' ordinal='18' />
+                  <column datatype='real' name='2008' ordinal='19' />
+                  <column datatype='real' name='2009' ordinal='20' />
+                  <column datatype='real' name='2010' ordinal='21' />
+                  <column datatype='real' name='2011' ordinal='22' />
+                  <column datatype='real' name='2012' ordinal='23' />
+                  <column datatype='real' name='2013' ordinal='24' />
+                  <column datatype='real' name='2014' ordinal='25' />
+                  <column datatype='real' name='2015' ordinal='26' />
+                  <column datatype='real' name='2016' ordinal='27' />
+                  <column datatype='real' name='2017' ordinal='28' />
+                  <column datatype='real' name='2018' ordinal='29' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Climatological disasters' name='federated.0zkydfb0zczjwy12katkb16v4hu7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zkydfb0zczjwy12katkb16v4hu7'>
+            <column caption='Total Occurrence' datatype='integer' name='[Calculation_409546157547380736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Occurrence 1990-1999]+[Occurrence 2000-2009]+[Occurrence 2010-2019]' />
+            </column>
+            <column datatype='string' name='[Countries or areas]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Occurrence 1990-1999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Occurrence 2000-2009]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Occurrence 2010-2019]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_409546157547380736]' derivation='None' name='[none:Calculation_409546157547380736:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Countries or areas]' derivation='None' name='[none:Countries or areas:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_409546157547380736]' derivation='Sum' name='[sum:Calculation_409546157547380736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Calculation_409546157547380736:qk]' included-values='non-null' />
+          <filter class='categorical' column='[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Countries or areas:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_409546157547380736])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Afghanistan&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Angola&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Argentina&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Australia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Bolivia (Plurinational State of)&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Brazil&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Burkina Faso&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Burundi&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Cambodia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Cameroon&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Canada&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Chad&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Chile&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;China&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Colombia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Croatia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Cuba&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Democratic Republic of the Congo&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Djibouti&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Ecuador&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;El Salvador&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Eswatini&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Ethiopia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;France&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Gambia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Greece&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Guatemala&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Haiti&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Honduras&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;India&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Indonesia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Italy&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Jamaica&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Kenya&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Lesotho&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Lithuania&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Madagascar&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Malawi&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Malaysia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Mali&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Mauritania&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Mexico&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Mozambique&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Namibia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Nepal&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Nicaragua&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Niger&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Panama&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Paraguay&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Peru&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Philippines&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Portugal&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Republic of Korea&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Russian Federation&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Senegal&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Somalia&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;South Africa&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Spain&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Sri Lanka&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Sudan&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Thailand&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Uganda&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;United Republic of Tanzania&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;United States of America&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Viet Nam&quot;' />
+                  <groupfilter function='member' level='[none:Countries or areas:nk]' member='&quot;Zimbabwe&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Countries or areas:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0zkydfb0zczjwy12katkb16v4hu7].[sum:Calculation_409546157547380736:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Calculation_409546157547380736:qk]</column>
+            <column>[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Countries or areas:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0zkydfb0zczjwy12katkb16v4hu7].[sum:Calculation_409546157547380736:qk]</rows>
+        <cols>[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Countries or areas:nk]</cols>
+      </table>
+      <simple-id uuid='{7C67D1A1-2C0D-41C3-B1B9-F80BB091224C}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Calculation_409546157547380736:qk]</field>
+            <field>[federated.0zkydfb0zczjwy12katkb16v4hu7].[none:Countries or areas:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{186D234C-B9BD-4F7F-BC39-D8B2828AC370}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      ZAxA/3H2XzM3B9ZnML6+AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
